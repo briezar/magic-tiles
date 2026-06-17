@@ -7,6 +7,22 @@
       "dependencies": {},
       "hash": "4d1c7374f8156080ac51c6540ad01cd8ae919059"
     },
+    "com.coffee.ui-effect": {
+      "version": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "ae483ec5776f45165e17d343cdbb19ccfb3b84ff"
+    },
+    "com.cysharp.csprojmodifier": {
+      "version": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3c9be1a827ce7a2e0d9518e34905fc2fc7a6d5df"
+    },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
       "depth": 0,

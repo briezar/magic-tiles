@@ -48,13 +48,14 @@ namespace MagicTiles.MainMenu
 
         private async UniTask ChangeScene()
         {
+            var currentSceneFlow = SceneFlow.GetSceneFlowOfObject(this);
+
             var fadeInTask = UIManager.FadeTransition(FadeSetting.FadeIn());
             var gameplaySceneHandle = await SceneFlow.LoadSceneWithoutActivation(_gamePlayScene, LoadSceneMode.Additive);
             await fadeInTask;
 
             var gameplaySceneFlow = await gameplaySceneHandle.Activate();
             await gameplaySceneFlow.PrepareScene();
-            var currentSceneFlow = SceneFlow.GetSceneFlowOfObject(this);
             await currentSceneFlow.UnloadSelf();
             await UIManager.FadeTransition(FadeSetting.FadeOut());
         }

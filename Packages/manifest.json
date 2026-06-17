@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "ayellowpaper.serialized-dictionary": "https://github.com/ayellowpaper/SerializedDictionary.git",
+    "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
+    "com.cysharp.csprojmodifier": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.kyrylokuzyk.primetween": "1.4.6",
     "com.unity.cinemachine": "3.1.7",

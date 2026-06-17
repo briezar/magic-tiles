@@ -47,20 +47,22 @@ Shader "MagicTiles/Gradient"
                 float4 color       : COLOR;
             };
 
+            // Texture + sampler live outside the CBuffer — SRP Batcher requires
+            // CBUFFER_START(UnityPerMaterial) to contain only plain value types.
+            // _ST / _TexelSize companions inside the CBuffer break SRP batching in Unity 6.
+            TEXTURE2D(_MainTex);
+            SAMPLER(sampler_MainTex);
+
             CBUFFER_START(UnityPerMaterial)
                 float4 _ColorTop, _ColorMid, _ColorBot;
                 float4 _Color;
-                float4 _MainTex_ST;
             CBUFFER_END
-
-            TEXTURE2D(_MainTex);
-            SAMPLER(sampler_MainTex);
 
             Varyings vert(Attributes IN)
             {
                 Varyings OUT;
                 OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz);
-                OUT.uv          = TRANSFORM_TEX(IN.uv, _MainTex);
+                OUT.uv          = IN.uv; // sprite UVs are already in [0,1] — no ST transform needed
                 OUT.color       = IN.color * _Color;
                 return OUT;
             }
