@@ -1,0 +1,3 @@
+[submodule "Assets/GameDevKit"]
+	path = Assets/GameDevKit
+	url = https://github.com/briezar/game-dev-kit

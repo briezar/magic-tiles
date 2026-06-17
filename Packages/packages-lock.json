@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e5acc106ee196bc5a32fb14cdf2987b0f96d11e0"
+    },
+    "com.kyrylokuzyk.primetween": {
+      "version": "1.4.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.org"
+    },
     "com.unity.2d.animation": {
       "version": "10.2.2",
       "depth": 1,
@@ -102,13 +116,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.collab-proxy": {
-      "version": "2.12.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.collections": {
       "version": "2.6.5",
       "depth": 2,
@@ -142,15 +149,6 @@
         "com.unity.2d.tilemap.extras": "4.1.0",
         "com.unity.2d.aseprite": "1.1.11"
       }
-    },
-    "com.unity.ide.rider": {
-      "version": "3.0.39",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
       "version": "2.0.27",
@@ -188,6 +186,13 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
       "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -292,15 +297,28 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.visualscripting": {
-      "version": "1.9.11",
+    "com.v0lt.editor-attributes": {
+      "version": "https://github.com/v0lt13/EditorAttributes.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.nuget.newtonsoft-json": "3.2.2"
       },
-      "url": "https://packages.unity.com"
+      "hash": "8cc1cc611fde090c8b845cc149f74b650fc6677e"
+    },
+    "com.yasirkula.assetusagedetector": {
+      "version": "https://github.com/yasirkula/UnityAssetUsageDetector.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "69f7ee5a27fc33442e3fa5778308bd4c29389a72"
+    },
+    "com.yasirkula.ingamedebugconsole": {
+      "version": "https://github.com/yasirkula/UnityIngameDebugConsole.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b8f04eaea48c8a23ccd7b3ec628761270e9f6979"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
