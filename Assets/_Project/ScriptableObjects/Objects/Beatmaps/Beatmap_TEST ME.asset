@@ -1,0 +1,645 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e062ca901f2054e8a21099db79e27d, type: 3}
+  m_Name: Beatmap_TEST ME
+  m_EditorClassIdentifier: 
+  SongInfo: {fileID: 11400000, guid: 17ee745309b32f64395044cb9e5d7744, type: 2}
+  Bpm: 130
+  OffsetSeconds: 0.26247
+  PlayRange:
+    min: 0.162
+    max: 0.3888
+  FadeInDuration: 0.5
+  FadeOutDuration: 0.5
+  Blocks:
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 4
+    Notes: []
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 7
+      Lane: 1
+      BeatPosition: 63.5
+      HoldBeats: 0.5
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 1
+      Lane: 2
+      BeatPosition: 64.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 2
+      Lane: 3
+      BeatPosition: 65
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 66
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 3
+      BeatPosition: 66.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 2
+      BeatPosition: 67
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 67.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 0
+      Lane: 2
+      BeatPosition: 68
+      HoldBeats: 0.5
+    - Type: 0
+      Row: 2
+      Lane: 1
+      BeatPosition: 69
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 0
+      BeatPosition: 69.5
+      HoldBeats: 0
+    - Type: 1
+      Row: 6
+      Lane: 1
+      BeatPosition: 71
+      HoldBeats: 0.5
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 72
+      HoldBeats: 0
+    - Type: 1
+      Row: 1
+      Lane: 1
+      BeatPosition: 72.5
+      HoldBeats: 0.5
+    - Type: 1
+      Row: 1
+      Lane: 3
+      BeatPosition: 72.5
+      HoldBeats: 0.5
+    - Type: 1
+      Row: 3
+      Lane: 1
+      BeatPosition: 73.5
+      HoldBeats: 0.5
+    - Type: 1
+      Row: 3
+      Lane: 3
+      BeatPosition: 73.5
+      HoldBeats: 0.5
+    - Type: 1
+      Row: 5
+      Lane: 1
+      BeatPosition: 74.5
+      HoldBeats: 0.5
+    - Type: 1
+      Row: 5
+      Lane: 3
+      BeatPosition: 74.5
+      HoldBeats: 0.5
+    - Type: 0
+      Row: 7
+      Lane: 2
+      BeatPosition: 75.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 0
+      Lane: 1
+      BeatPosition: 76
+      HoldBeats: 0.5
+    - Type: 0
+      Row: 2
+      Lane: 0
+      BeatPosition: 77
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 77.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 78
+      HoldBeats: 0
+    - Type: 1
+      Row: 6
+      Lane: 1
+      BeatPosition: 79
+      HoldBeats: 0.5
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 0
+      Lane: 2
+      BeatPosition: 80
+      HoldBeats: 0.5
+    - Type: 0
+      Row: 2
+      Lane: 1
+      BeatPosition: 81
+      HoldBeats: 0
+    - Type: 0
+      Row: 2
+      Lane: 3
+      BeatPosition: 81
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 3
+      BeatPosition: 82
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 2
+      BeatPosition: 82.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 0
+      BeatPosition: 83.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 0
+      Lane: 1
+      BeatPosition: 84
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 0
+      Lane: 3
+      BeatPosition: 84
+      HoldBeats: 1.5
+    - Type: 0
+      Row: 6
+      Lane: 1
+      BeatPosition: 87
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 0
+      BeatPosition: 87.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 1
+      BeatPosition: 88
+      HoldBeats: 0
+    - Type: 1
+      Row: 1
+      Lane: 2
+      BeatPosition: 88.5
+      HoldBeats: 1
+    - Type: 0
+      Row: 4
+      Lane: 1
+      BeatPosition: 90
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 2
+      BeatPosition: 90.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 91.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 0
+      Lane: 0
+      BeatPosition: 92
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 0
+      Lane: 2
+      BeatPosition: 92
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 5
+      Lane: 1
+      BeatPosition: 94.5
+      HoldBeats: 1
+    - Type: 1
+      Row: 5
+      Lane: 3
+      BeatPosition: 94.5
+      HoldBeats: 1
+  - RowCount: 8
+    Notes:
+    - Type: 1
+      Row: 1
+      Lane: 1
+      BeatPosition: 96.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 1
+      Lane: 3
+      BeatPosition: 96.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 5
+      Lane: 0
+      BeatPosition: 98.5
+      HoldBeats: 1
+    - Type: 1
+      Row: 5
+      Lane: 2
+      BeatPosition: 98.5
+      HoldBeats: 1
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 2
+      Lane: 2
+      BeatPosition: 101
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 101.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 102
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 1
+      BeatPosition: 102.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 2
+      BeatPosition: 103
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 103.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 104
+      HoldBeats: 0
+    - Type: 1
+      Row: 1
+      Lane: 1
+      BeatPosition: 104.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 1
+      Lane: 3
+      BeatPosition: 104.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 5
+      Lane: 0
+      BeatPosition: 106.5
+      HoldBeats: 1
+    - Type: 1
+      Row: 5
+      Lane: 2
+      BeatPosition: 106.5
+      HoldBeats: 1
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 2
+      Lane: 2
+      BeatPosition: 109
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 109.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 110
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 2
+      BeatPosition: 111
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 111.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 112
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 1
+      BeatPosition: 112.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 3
+      BeatPosition: 112.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 113.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 3
+      BeatPosition: 113.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 1
+      BeatPosition: 114.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 2
+      BeatPosition: 115
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 115.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 116
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 1
+      BeatPosition: 116.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 3
+      BeatPosition: 116.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 1
+      BeatPosition: 118.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 2
+      BeatPosition: 119
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 119.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 120
+      HoldBeats: 0
+    - Type: 1
+      Row: 1
+      Lane: 1
+      BeatPosition: 120.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 1
+      Lane: 3
+      BeatPosition: 120.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 5
+      Lane: 0
+      BeatPosition: 122.5
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 5
+      Lane: 2
+      BeatPosition: 122.5
+      HoldBeats: 1.5
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 2
+      Lane: 1
+      BeatPosition: 125
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 2
+      BeatPosition: 125.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 1
+      BeatPosition: 126
+      HoldBeats: 0
+    - Type: 0
+      Row: 5
+      Lane: 2
+      BeatPosition: 126.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 3
+      BeatPosition: 127.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 128
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 1
+      BeatPosition: 128.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 1
+      Lane: 3
+      BeatPosition: 128.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 0
+      BeatPosition: 129.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 2
+      BeatPosition: 129.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 1
+      BeatPosition: 130
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 3
+      BeatPosition: 131
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 131.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 0
+      Lane: 2
+      BeatPosition: 132
+      HoldBeats: 0
+    - Type: 0
+      Row: 2
+      Lane: 3
+      BeatPosition: 133
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 133.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 134
+      HoldBeats: 0
+    - Type: 1
+      Row: 6
+      Lane: 1
+      BeatPosition: 135
+      HoldBeats: 1.5
+    - Type: 1
+      Row: 6
+      Lane: 3
+      BeatPosition: 135
+      HoldBeats: 1.5
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 3
+      Lane: 3
+      BeatPosition: 137.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 1
+      BeatPosition: 138
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 3
+      BeatPosition: 139
+      HoldBeats: 0
+    - Type: 0
+      Row: 7
+      Lane: 1
+      BeatPosition: 139.5
+      HoldBeats: 0
+  - RowCount: 8
+    Notes:
+    - Type: 0
+      Row: 2
+      Lane: 3
+      BeatPosition: 141
+      HoldBeats: 0
+    - Type: 0
+      Row: 3
+      Lane: 1
+      BeatPosition: 141.5
+      HoldBeats: 0
+    - Type: 0
+      Row: 4
+      Lane: 2
+      BeatPosition: 142
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 1
+      BeatPosition: 143
+      HoldBeats: 0
+    - Type: 0
+      Row: 6
+      Lane: 3
+      BeatPosition: 143
+      HoldBeats: 0

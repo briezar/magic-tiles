@@ -1,0 +1,5 @@
+-nowarn:0414
+-nowarn:4014
+-nowarn:1998
+-nowarn:0067
+-langVersion:10

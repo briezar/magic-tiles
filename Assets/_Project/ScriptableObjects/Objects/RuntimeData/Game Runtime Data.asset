@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a59d5e7fed3724dabd7ce929d361f4, type: 3}
+  m_Name: Game Runtime Data
+  m_EditorClassIdentifier: 
+  <Score>k__BackingField:
+    _value: 0
+  <Combo>k__BackingField:
+    _value: 0
+  <BestCombo>k__BackingField: 0
+  <Scoring>k__BackingField: {fileID: 11400000, guid: 544976379a2e787438ff544ab3ab56d8, type: 2}
+  _sessionConfig:
+    Beatmap: {fileID: 11400000, guid: 3202c0c048515e8438c2ddb20e7e3b87, type: 2}
+    IsAutoplay: 1
+    SpeedMultiplier: 1
+  <Map>k__BackingField: {fileID: 0}
+  <MusicPlayer>k__BackingField: {fileID: 0}
