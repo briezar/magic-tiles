@@ -409,7 +409,7 @@ MonoBehaviour:
   <SetActiveSceneOnStart>k__BackingField: 1
   _gameplayScene:
     sceneAsset: {fileID: 102900000, guid: a26d150ece36a3644804e4309aa5066c, type: 3}
-    scenePath: Assets/_Project/Scenes/Gameplay/Gameplay.unity
+    scenePath: _Project/Scenes/Gameplay/Gameplay
 --- !u!1001 &1911229434
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -16,7 +16,6 @@ namespace MagicTiles
     public class BootstrapSceneFlow : SceneFlow
     {
         [SerializeField] private SplashUI _splashUI;
-        [SerializeField] private DebugLogManager _debugConsole;
 
         [SerializeField] private SceneReference _servicesScene;
         [SerializeField] private SceneReference _nextScene;
@@ -36,11 +35,6 @@ namespace MagicTiles
         {
             SceneManager.LoadScene(_servicesScene, LoadSceneMode.Additive);
             await UniTask.WaitUntil(() => UIManager.IsReady);
-
-            PrimeTweenConfig.warnTweenOnDisabledTarget = false;
-            PrimeTweenConfig.warnEndValueEqualsCurrent = false;
-
-            Application.targetFrameRate = 60;
 
             UIManager.FadeTransition(FadeSetting.FadeIn(0));
 
@@ -76,16 +70,6 @@ namespace MagicTiles
             {
                 _splashUI.RunProgress(info.TargetProgress * totalProgress, 0.25f);
                 _splashUI.SetInfo(info.Message);
-            }
-        }
-
-        private int _showDebugConsoleCount = 0;
-        public void IncrementShowDebugConsole()
-        {
-            _showDebugConsoleCount++;
-            if (_showDebugConsoleCount >= 3)
-            {
-                _debugConsole.gameObject.SetActive(true);
             }
         }
 

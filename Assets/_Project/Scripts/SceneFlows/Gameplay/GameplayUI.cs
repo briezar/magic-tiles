@@ -7,10 +7,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using MagicTiles.Data;
 using MoreMountains.Feedbacks;
-using GameDevKit.Collections;
 using GameDevKit.ObjectReferences;
 using UnityEngine.SceneManagement;
 using GameDevKit.UI;
+using AYellowpaper.SerializedCollections;
 
 namespace MagicTiles.UI
 {
@@ -26,7 +26,7 @@ namespace MagicTiles.UI
         [SerializeField] private TMP_Text _songTitle, _singer, _highScore;
 
         [Header("Ratings")]
-        [SerializeField] private SerializableDictionary<HitRank, GameObject> _rankToObject;
+        [SerializeField] private SerializedDictionary<HitRank, GameObject> _rankToObject;
 
         [Header("FX")]
         [SerializeField] private MMF_Player _stereoPulseFeedback;
@@ -41,6 +41,8 @@ namespace MagicTiles.UI
 
         protected override void OnStart()
         {
+            ScriptableObjectContainer.AssignIfNull(ref _gameData);
+
             _scoreText.text = "0";
             _comboText.text = "";
             _comboMultiplierText.text = "";
@@ -48,14 +50,10 @@ namespace MagicTiles.UI
 
         protected override void OnStartOrEnable()
         {
-            ScriptableObjectContainer.AssignIfNull(ref _gameData);
-
             _gameData.Score.OnValueChanged[this] += HandleOnScoreChanged;
             _gameData.Combo.OnValueChanged[this] += HandleOnComboChanged;
 
             _gameData.OnTileTapped[this] += HandleOnTileTapped;
-            HandleOnTileTapped(HitResult.Hit(HitRank.None, 0));
-
             _gameData.OnGameResult[this] += HandleOnGameResult;
 
             ShowInfoBox();
@@ -70,7 +68,6 @@ namespace MagicTiles.UI
             }
 
             _gameData.OnStartGame[this] += () => _infoBox.gameObject.SetActive(false);
-            // Debug.Log($"Rank to object: {_rankToObject.JoinToString(kv => $"[{kv.Key}:{kv.Value.name}]")}");
         }
 
         private void OnDisable()

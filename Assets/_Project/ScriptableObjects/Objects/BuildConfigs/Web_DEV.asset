@@ -28,6 +28,7 @@ MonoBehaviour:
         BuildTarget: 20
         BuildSuffix: 
         WebBuildSettings:
+          ClientBrowserType: 0
           TextureSubtarget: 0
           CodeOptimization: 4
           CompressionFormat: 1

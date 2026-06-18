@@ -111,9 +111,18 @@ namespace MagicTiles.Gameplay
             SetFillSize(_cellHeight);
         }
 
-        void IPointerUpHandler.OnPointerUp(PointerEventData eventData) => Release();
+        void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
+        {
+            if (_tileState is not TileState.Held) { return; }
+            Release();
+        }
 
-        void IPointerExitHandler.OnPointerExit(PointerEventData eventData) => Release();
+        void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
+        {
+            if (_tileState is not TileState.Held) { return; }
+            Release();
+        }
+
 
         protected override async UniTask HandleOnRelease()
         {
@@ -138,6 +147,7 @@ namespace MagicTiles.Gameplay
         protected void HandleAutoplay()
         {
             if (!_gameData.SessionConfig.IsAutoplay) { return; }
+            if (_tileState is not TileState.None) { return; }
 
             if (MatchesBeatOrPassed())
             {

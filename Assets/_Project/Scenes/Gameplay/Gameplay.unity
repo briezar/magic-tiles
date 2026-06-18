@@ -4167,7 +4167,7 @@ MonoBehaviour:
   _winFeedback: {fileID: 2104284034}
   _mainMenuScene:
     sceneAsset: {fileID: 102900000, guid: ed274c3d1303d744f92406c496cee848, type: 3}
-    scenePath: Assets/_Project/Scenes/MainMenu.unity
+    scenePath: _Project/Scenes/MainMenu
 --- !u!4 &1651267720
 Transform:
   m_ObjectHideFlags: 0
@@ -7406,7 +7406,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -553973269
         Label: Scale
-        OriginalLabel: 
+        OriginalLabel: Scale
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -7642,7 +7642,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 481081719
         Label: Rotation Spring
-        OriginalLabel: 
+        OriginalLabel: Rotation Spring
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -7865,7 +7865,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -553973269
         Label: Scale
-        OriginalLabel: 
+        OriginalLabel: Scale
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -8195,7 +8195,7 @@ RectTransform:
   - {fileID: 5968580928905245182}
   - {fileID: 2576848903565570271}
   - {fileID: 582105078823795992}
-  m_Father: {fileID: 5828279906392111540}
+  m_Father: {fileID: 1778036745865489689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9076,6 +9076,7 @@ RectTransform:
   m_Children:
   - {fileID: 5828279906392111540}
   - {fileID: 6228777493914898835}
+  - {fileID: 545380491652976806}
   m_Father: {fileID: 6697776716866909840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10178,7 +10179,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 517629420
         Label: Particles Instantiation
-        OriginalLabel: 
+        OriginalLabel: Particles Instantiation
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -10275,7 +10276,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 2034556966
         Label: Bloom URP
-        OriginalLabel: 
+        OriginalLabel: Bloom URP
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -10423,7 +10424,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -709078319
         Label: Chromatic Aberration URP
-        OriginalLabel: 
+        OriginalLabel: Chromatic Aberration URP
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -10536,7 +10537,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1320475225
         Label: Lens Distortion URP
-        OriginalLabel: 
+        OriginalLabel: Lens Distortion URP
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -10712,7 +10713,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1514138424
         Label: Color Adjustments URP
-        OriginalLabel: 
+        OriginalLabel: Color Adjustments URP
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -10995,7 +10996,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 981269848
         Label: Rotation Spring
-        OriginalLabel: 
+        OriginalLabel: Rotation Spring
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -11083,7 +11084,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1367712711
         Label: Scale
-        OriginalLabel: 
+        OriginalLabel: Scale
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -11468,7 +11469,6 @@ RectTransform:
   - {fileID: 2449705435723346297}
   - {fileID: 2013138782802783471}
   - {fileID: 5314242312312875199}
-  - {fileID: 545380491652976806}
   - {fileID: 1169346254}
   m_Father: {fileID: 1778036745865489689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12220,7 +12220,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1199217641
         Label: Scale
-        OriginalLabel: 
+        OriginalLabel: Scale
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -12481,7 +12481,7 @@ MonoBehaviour:
   m_text: 320
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 765146af92043f84ca7db728dab8038b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12667,7 +12667,7 @@ MonoBehaviour:
   <DestroyOnHide>k__BackingField: 1
   _mainMenuScene:
     sceneAsset: {fileID: 102900000, guid: ed274c3d1303d744f92406c496cee848, type: 3}
-    scenePath: Assets/_Project/Scenes/MainMenu.unity
+    scenePath: _Project/Scenes/MainMenu
   _scoreText: {fileID: 6891447661629335186}
   _comboText: {fileID: 532660648802845255}
   _comboMultiplierText: {fileID: 4894614110431376978}
@@ -12676,15 +12676,15 @@ MonoBehaviour:
   _singer: {fileID: 971602027932734116}
   _highScore: {fileID: 4478800904756963135}
   _rankToObject:
-    _keyValuePairs:
-    - _key: 3
-      _value: {fileID: 2040541466262962349}
-    - _key: 2
-      _value: {fileID: 4694398099589793321}
-    - _key: 1
-      _value: {fileID: 7250518402351627542}
-    - _key: 0
-      _value: {fileID: 939374752966127821}
+    _serializedList:
+    - Key: 3
+      Value: {fileID: 2040541466262962349}
+    - Key: 2
+      Value: {fileID: 4694398099589793321}
+    - Key: 1
+      Value: {fileID: 7250518402351627542}
+    - Key: 0
+      Value: {fileID: 939374752966127821}
   _stereoPulseFeedback: {fileID: 6061313098206269497}
   _tileTapFeedback: {fileID: 6792066246679759386}
   _scoreChangedFeedback: {fileID: 496024402139728493}
