@@ -17,6 +17,7 @@ namespace MagicTiles
 
 #if DEV_BUILD || UNITY_EDITOR
         [SerializeField] private DebugLogManager _debugConsolePrefab;
+        [SerializeField] private GameObject _debugObj;
 #endif
 
         public static bool EnableCheat =>
@@ -58,11 +59,7 @@ namespace MagicTiles
             Input.multiTouchEnabled = false;
 
 #if DEV_BUILD || UNITY_EDITOR
-            if (_debugConsolePrefab != null)
-            {
-                var console = Instantiate(_debugConsolePrefab);
-                console.gameObject.SetActive(false);
-            }
+            SetupCheat();
 #endif
 
         }
@@ -117,6 +114,19 @@ namespace MagicTiles
 
 
 #if DEV_BUILD || UNITY_EDITOR
+        private async UniTaskVoid SetupCheat()
+        {
+            if (_debugConsolePrefab != null)
+            {
+                var console = Instantiate(_debugConsolePrefab);
+                console.gameObject.SetActive(false);
+            }
+
+            _debugObj.SetActive(true);
+            await UniTask.WaitForSeconds(3f);
+            Destroy(_debugObj);
+        }
+
         private int _showDebugConsoleCount = 0;
         public void IncrementShowDebugConsole()
         {
