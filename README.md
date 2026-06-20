@@ -2,6 +2,8 @@
 
 A rhythm game where you race to tap and hold tiles as they fall in sync with the beat. Land Perfect hits to build your combo multiplier, play through the run without dropping a tile, and see how high you can push your score.
 
+Keyboard support is available: keys 1,2,3,4 correspond to lanes 1,2,3,4.
+
 ---
 
 ## 🎮 Play in Browser
@@ -39,7 +41,7 @@ Tiles fall in sync with the music across four lanes. Tap them on time to score, 
 
 | | |
 |---|---|
-| `.sm` Beatmap Format | Charts authored in Arrow Vortex and parsed at runtime — no manual timeline work |
+| `.sm` Beatmap Format | Charts authored in Arrow Vortex and parsed into ScriptableObjects |
 | Data-Driven Architecture | ScriptableObjects handle song metadata, beatmap data, and runtime state |
 | Event-Driven Systems | Tile spawning, input, scoring, and UI communicate through events |
 | Object Pooling | Tiles are pooled and recycled to avoid runtime allocation |
